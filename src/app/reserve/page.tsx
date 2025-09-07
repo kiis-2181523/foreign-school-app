@@ -83,7 +83,6 @@ export default function ReservePage() {
           </option>
         ))}
       </select>
-      <p>デバッグ: {JSON.stringify(courses)}</p>
       <input
         type="date"
         value={date}
